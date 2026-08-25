@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # FastAPI + PostgreSQL Multi-Container App
 
 A production-ready microservice built with FastAPI and PostgreSQL, containerized using Docker and Docker Compose.
@@ -12,6 +11,14 @@ A production-ready microservice built with FastAPI and PostgreSQL, containerized
 ## How to Run
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/clarkebarbour/fastapi-postgres-app.git](https://github.com/clarkebarbour/fastapi-postgres-app.git)
-   cd fastapi-postgres-app
+```bash
+git clone [https://github.com/clarkebarbour/fastapi-postgres-app.git](https://github.com/clarkebarbour/fastapi-postgres-app.git)
+cd fastapi-postgres-app
+```
+2. **Start containers with Docker Compose:**
+```bash
+docker-compose up --build
+```
+
+3. **Access API Documentation:**⁠
+Open http://localhost:8000/docs in your browser.⁠
