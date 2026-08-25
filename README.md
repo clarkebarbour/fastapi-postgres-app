@@ -12,13 +12,12 @@ A production-ready microservice built with FastAPI and PostgreSQL, containerized
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/clarkebarbour/fastapi-postgres-app.git](https://github.com/clarkebarbour/fastapi-postgres-app.git)
-cd fastapi-postgres-app
+git clone [https://github.com/clarkebarbour/fastapi-postgres-app.git](https://github.com/clarkebarbour/fastapi-postgres-app.git)⁠
 ```
 2. **Start containers with Docker Compose:**
 ```bash
 docker-compose up --build
 ```
 
-3. **Access API Documentation:**⁠
-Open http://localhost:8000/docs in your browser.⁠
+3.  **Access API Documentation:**⁠
+Open http://localhost:8000/docs in your browser
